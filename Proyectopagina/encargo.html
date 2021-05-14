@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="imagenes/logo mini.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifemage</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="contenido">
+    <div id="cabecera">
+        <a name="arriba"></a>
+    </div>
+    
+<div id="cabaceras">
+
+    <div class="subindice">
+        <a href="index.html">Inicio</a>
+    </div>
+
+    <div class="subindice">
+        <a href="productos.html">Productos</a> <!--Incluir un despegable a ser posible -->
+    </div>
+
+    <div class="subindice">
+        <a href="encargo.html">Tu encargo personalizado</a>
+    </div>
+
+    <div class="subindice">
+        <a href="quienessomos.html">¿Quienes somos?</a>
+    </div>
+
+    <div class="subindice">
+        <a href="contactanos.html">Contactanos</a>
+    </div>
+
+</div>
+        <form action="hola.php" method="post" name="formulario" class="formulario" id="formulario">
+            <h1>Formulario de encargo personalizado</h1>
+            <div>
+                <label for="usuario">Usuario</label>
+                <input type="text" id='usuario'>
+            </div>
+    
+            <div>
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id='contrasena'>
+            </div>
+    
+            <div>
+                <label for="contrasena2">Confirmar Contraseña</label>
+                <input type="password" id='contrasena2'>
+            </div>
+            
+            
+            <div>
+                <label for="nombre">Nombre</label>
+                <input name="nombre" type="text" id='nombre'>
+            </div>
+    
+            <div>
+                <label for="direccion">Direccion</label>
+                <input name="direccion" type="text"id='direccion'>
+            </div>
+    
+            <div>
+                <label for="correo">Correo Electrónico</label>
+                <input name="correo" type="text" id='correo'>
+            </div>
+    
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="text" id='telefono'>
+            </div>
+    
+            <div>
+                <label for="urgente">¿Con que nivel de urgencia quiere el pedido?</label>
+                <select id="urgente" name="urgente">
+                    <option value="0" selected="selected">Normal</option>
+                    <option value="1">Urgente</option>
+                    <option value="2">Muy urgente</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="detalles">Detalles del pedido</label>
+                <textarea name="detalles" id='detalles'></textarea>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="terminos">Acepto los Terminos y Condiciones
+            </div>
+    
+    
+            <input type="button" value="Enviar" onClick="enviarFormulario()" >
+            <input type="reset" name="borrar" value="Borrar datos del formulario">
+    
+        </form>
+    
+    
+        <script src="javascript-formulario.js"></script>
+
+<div id="piedepagina2">
+<a  href="#arriba"> Volver arriba</a>    
+</div>
+
+<div id="piedepagina">
+    <h3>Conócenos</h3>
+    <a href="contactanos.html">Contacto</a><br>
+    <a href="quienessomos.html">¿Quienes somos?</a><br>
+    <a href="https://twitter.com/Johasenpai">Redes sociales</a><br>
+    <a href="politicacookies.html">Politica de cookies</a><br>
+    <a href="terminosycondiciones.html">Terminos y condiciones</a><br>
+    <a href="rss.xml"><img src="imagenes/rss.png" height="40"></a><br>
+
+</div>
+
+
+
+</body>
+</html>

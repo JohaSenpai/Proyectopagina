@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+       <title>Feed de LIFEMAGE</title>
+       <link>index.html</link>
+       <description>LIFEMAGE: "Donde el límite esta en tu imaginación... Y tu bolsillo... Aunque es barato, por lo que seguramente no haya problema ahí"</description>
+       
+       <item>
+           <title>Rebajas en nuestros servicios primavera/verano</title>
+           <link>productos.html</link>
+           <description>El veranito ya esta aquí, ahora que podemos salir y sacar fotos, aprovecha nuestras rebajas. No se que mas inventarme. Esta bien barato, sobre todo porque es imaginario todo, una ganga.</description>
+       </item>
+
+       <item>
+           <title>Aprovecha nuestras sucursales</title>
+           <link>https://www.albertocuerda.es/?gclid=CjwKCAjwv_iEBhASEiwARoemvIddP1aFIi9PXI90sTUsNPWuQVFGztwFhpsutMLTPMZXDU-F_ApeBhoCx44QAvD_BwE</link>
+           <description>Nos hemos afiliado con el estudio de fotografía "alberto cuerda", visita su web para mirar sus ofertas (que en realidad son nuestras, pum, increíble) </description>
+       </item>
+   </channel>
+</rss>

@@ -1,0 +1,333 @@
+body {
+    background: url(imagenes/fondo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+#contenido {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cabecera {
+    width: 100%;
+    height: 500px;
+    background: url(imagenes/logo\ cabecera2.png) no-repeat center center;
+
+}
+
+.subindice{
+    width: 20%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    background-color: #339999;
+    color: white;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+
+}
+
+
+/*A partir de aqui empieza el troncho del slider*/
+.container {
+    margin-top: 70px;
+}
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top:0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white; /*fondo del pestañeo*/
+    transition: opacity .5s; /*tiempo entre pestañeos*/
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 600px; /*el mismo que el slider*/
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:  #339999;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+/*slider over*/
+
+
+#cuerpo {
+    
+    width: 100%;
+    height: 1100px;
+    float: left;
+    clear: both;
+    text-align: center;
+    background-color:white;
+    margin-bottom: 50px;
+    
+}
+
+/*#cuerpoproductos {
+    width: 100%;
+    height: 1000px;
+    clear: both;
+    text-align: center;
+    background-color: white;
+    
+}*/
+
+
+#piedepagina{
+  
+    width: 100%;
+    height: 100%;
+    float: right;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #232F3E;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    padding: 35px 0;
+}
+
+#piedepagina2{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    color: #FFF;
+    height: 20px;
+    float: right;
+    background-color: rgb(62, 77, 95);
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial,sans-serif;
+}
+
+.titulo {
+    padding-bottom: 2rem;
+    position: relative;
+    margin: 0;
+    font-size: 3em;
+    color:#339999;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.tabla {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tabla th {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #83aec0;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #558FA6;
+    border-bottom-color: #558FA6;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+}
+
+.tabla .modo1 {
+    font-size: 12px;
+    font-weight:bold;
+    background-color: #e2ebef;
+    background-repeat: repeat-x;
+    color: #34484E;
+    font-family: “Trebuchet MS”, Arial;
+    }
+    .tabla .modo1 td {
+    padding: 5px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #A4C4D0;
+    border-bottom-color: #A4C4D0;
+    text-align:right;
+    }
+
+#contactiner {
+    background: url(imagenes/contactanos.jpg) no-repeat center center;
+    width: 100%;
+    height: 800px;
+}
+
+#contacto {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+#piedepagina2:hover{background-color: rgb(84, 103, 128);}
+
+
+#piedepagina2 a:link, #piedepagina2 a:visited{
+    color: #FFF;
+    text-decoration: none;  
+}
+
+#piedepagina a:link, #piedepagina a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#piedepagina a:link:hover, #piedepagina a:visited:hover{
+    color: #59d3d3;
+    text-decoration: none;
+}
+
+.subindice a:link, .subindice a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.formulario div {
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+    position: relative;
+}
+
+.formulario h1 {
+    text-shadow: 6px -1px 4px #0FCE8F;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 29px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.formulario label {
+    display: block;
+}
+
+ .formulario input {
+    max-width: 200px;
+    padding-bottom: 2px;
+	width: 90%;
+	margin: center;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 20px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+
+.formulario textarea {
+    resize: none;
+    width: 800px;
+    height:200px;
+    
+}
+
+.formulario input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario input[type="button"]{
+    margin-top: 2%;
+    height: 40px;
+	line-height: 40px;
+	width: auto;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario input[type="reset"]{
+    margin-top: 2%;
+    height: 40px;
+	line-height: 40px;
+	width: auto;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
